@@ -1,0 +1,28 @@
+body{
+    background: #172d17;
+    
+}
+#game-board{
+    background: #91f08e;;
+    width: 900px;
+    height: 755px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(21, 1fr);
+    grid-template-rows: repeat(21, 1fr);
+}
+
+.snake{
+    background: #2e8000;
+    border: ;
+    box-shadow: 2px 4px #409918;
+    border-radius: 15px 5px;
+
+
+}
+
+.food{
+    background: #a20909;
+    border: 1px;
+    border-radius: 40px;
+}
